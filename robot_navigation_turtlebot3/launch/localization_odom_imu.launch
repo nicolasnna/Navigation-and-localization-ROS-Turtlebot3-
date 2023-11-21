@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="robot_localization" type="ekf_localization_node" name="fusion_ekf_odom_imu" clear_params="true">
+    <rosparam command="load" file="$(find robot_navigation_turtlebot3)/param/localization_odom_imu.yaml" />
+    
+    <remap from="odometry/filtered" to="filtered/fusion_odom_imu"/>
+    <!--  Placeholder for output topic remapping
+    <remap from="accel/filtered" to=""/>
+    -->
+
+  </node>
+</launch>
