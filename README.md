@@ -15,6 +15,8 @@ Para la navegación utiliza el paquete `move_base` y distintos planificadores lo
 
 # Dependencias
 
+* [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3)
+
 * [robot_localization](https://github.com/cra-ros-pkg/robot_localization)
 
 * [trilateration_xbee_ros](https://github.com/NicolasNNA/trilateration_xbee_ros)
